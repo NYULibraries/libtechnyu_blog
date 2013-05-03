@@ -1,6 +1,6 @@
 # Library Technologists @ NYU - The Blog
 This repo holds the blog version of everybody's (?!) favorite IRC channel, #libtechnyu.
-(Hosted on freenode, if you didn't know now you know).
+(Hosted on freenode, if you don't know, now you know).
 
 The blog is [Octopress](https://github.com/imathis/octopress) which is prettyfied [Jekyll](https://github.com/mojombo/jekyll).
 
