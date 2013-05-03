@@ -16,7 +16,8 @@ categories:
 # Introducting Library Technologists @ NYU - The Blog
 Hi! We're libtechnyu.  Hit us up on our IRC channel, `#libtechnyu` (hosted on freenode, if you didn't know now you know).
 
-I'm happy to introduce our shiny new blog.  
+I'm happy to introduce our shiny new blog.
+
 It's a work in progress (isn't everything), but do check in now and again to see what we're up to.
 We'll post what we're working on, what we've done, interesting little technological marvels we've encountered.
 
