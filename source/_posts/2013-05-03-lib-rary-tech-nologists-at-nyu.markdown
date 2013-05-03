@@ -7,7 +7,7 @@ categories: libtechnyu
 tags: introductions octopress jekyll git
 ---
 
-# Introducting Lib(rary )Tech(nologists @ )NYU - The Blog
+# Introducting Library Technologists @ NYU - The Blog
 Hi! We're libtechnyu.  Hit us up on our IRC channel, `#libtechnyu` (hosted on freenode, if you didn't know now you know).
 
 
