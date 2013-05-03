@@ -22,9 +22,9 @@ We'll post what we're working on, what we've done, interesting little technologi
 
 The usual. It's a blog.
 
+## Contributing
 The blog is [Octopress](https://github.com/imathis/octopress) which is prettyfied [Jekyll](https://github.com/mojombo/jekyll).
 
-## Contributing
 If you want to add a blog post, ask for access to [this repo](https://github.com/NYULibraries/libtechnyu_blog), clone it and rake a new post.
     
     $ clone git@github.com:NYULibraries/libtechnyu_blog.git libtechnyu_blog
