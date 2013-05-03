@@ -1,4 +1,7 @@
 <ul class="main-navigation">
-  <li><a href="{{ root_url }}/">Blog</a></li>
+  <li>{{ site.title }}</li>
+  {% if site.subtitle %}
+    <li>{{ site.subtitle }}</li>
+  {% endif %}
   <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
 </ul>
