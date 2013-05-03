@@ -13,7 +13,7 @@ categories:
   - git
 ---
 
-Hi! We're libtechnyu.  Hit us up on our IRC channel, `#libtechnyu` (hosted on freenode, if you didn't know now you know).
+Hi! We're libtechnyu.  Hit us up on our IRC channel, `#libtechnyu` (hosted on freenode, if you don't know, now you know).
 
 I'm happy to introduce our shiny new blog.
 
