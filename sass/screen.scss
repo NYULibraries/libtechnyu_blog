@@ -9,4 +9,24 @@
 @import "partials";
 @import "plugins/**/*";
 @import "custom/styles";
-@import "_nyulibraries.scss.css";
+@import "nyulibraries/variables";
+@import "bootstrap";
+@import "bootstrap-responsive";
+@import "nyulibraries/mixins";
+@import "nyulibraries/reset";
+@import "nyulibraries/misc";
+@import "nyulibraries/content_types";
+@import "nyulibraries/header";
+@import "nyulibraries/breadcrumbs";
+@import "nyulibraries/login";
+@import "nyulibraries/sidebar";
+@import "nyulibraries/tabs";
+@import "nyulibraries/search";
+@import "nyulibraries/results";
+@import "nyulibraries/form";
+@import "nyulibraries/az";
+@import "nyulibraries/responsive";
+@import "nyulibraries/tables";
+@import "nyulibraries/footer";
+@import "jquery/jquery-ui";
+
