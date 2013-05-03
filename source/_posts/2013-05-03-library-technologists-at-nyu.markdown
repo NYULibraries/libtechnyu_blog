@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Library Technologists @ NYU"
+title: "Introducting Library Technologists @ NYU - The Blog"
 date: 2013-05-03 09:34
 comments: true
 author: Scot Dalton
@@ -13,7 +13,6 @@ categories:
   - git
 ---
 
-# Introducting Library Technologists @ NYU - The Blog
 Hi! We're libtechnyu.  Hit us up on our IRC channel, `#libtechnyu` (hosted on freenode, if you didn't know now you know).
 
 I'm happy to introduce our shiny new blog.
