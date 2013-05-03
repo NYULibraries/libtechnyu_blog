@@ -2,13 +2,6 @@
 @include global-reset;
 @include reset-html5;
 
-@import "custom/colors";
-@import "custom/fonts";
-@import "custom/layout";
-@import "base";
-@import "partials";
-@import "plugins/**/*";
-@import "custom/styles";
 @import "nyulibraries/variables";
 @import "bootstrap";
 @import "bootstrap-responsive";
@@ -29,4 +22,12 @@
 @import "nyulibraries/tables";
 @import "nyulibraries/footer";
 @import "jquery/jquery-ui";
+
+@import "custom/colors";
+@import "custom/fonts";
+@import "custom/layout";
+@import "base";
+@import "partials";
+@import "plugins/**/*";
+@import "custom/styles";
 
