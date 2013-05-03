@@ -15,7 +15,7 @@ Hi! We're libtechnyu.  Hit us up on our IRC channel, `#libtechnyu` (hosted on fr
 The blog is [Octopress](https://github.com/imathis/octopress) which is prettyfied [Jekyll](https://github.com/mojombo/jekyll).
 
 ## Contributing
-If you want to add a blog post, clone [this repo]() and 
+If you want to add a blog post, clone [this repo]() and rake a new post.
     
     $ clone git@github.com:NYULibraries/libtechnyu_blog.git libtechnyu_blog
     $ cd libtechnyu_blog
