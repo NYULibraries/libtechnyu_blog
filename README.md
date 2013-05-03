@@ -4,13 +4,7 @@ This repo holds the blog version of everybody's (?!) favorite IRC channel, #libt
 
 The blog is [Octopress](https://github.com/imathis/octopress) which is prettyfied [Jekyll](https://github.com/mojombo/jekyll).
 
-If you want to add a blog post, clone this repo and 
-    
-    $ clone libtechnyu_blog libtechnyu_blog
-    $ cd libtechnyu_blog
-    $ bundle install
-    $ bundle exec rake install
-    $ bundle exec rake new_post["The Title of My Post Which Offers Incredible Insight into the Everything"]
+If you want to add a blog post, [view this blog post](https://web1.library.nyu.edu/libtechnyu/blog/2013/05/03/library-technologists-at-nyu/)
 
 ## Questions?
 Hit up sdalton on #libtechnyu :)
