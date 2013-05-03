@@ -1,4 +1,4 @@
-# Lib(rary )Tech(nologists @ )NYU
+# Library Technologists @ NYU - The Blog
 This repo holds the blog version of everybody's (?!) favorite IRC channel, #libtechnyu.
 (Hosted on freenode, if you didn't know now you know).
 
