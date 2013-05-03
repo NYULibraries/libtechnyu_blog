@@ -4,8 +4,13 @@ title: "Library Technologists @ NYU"
 date: 2013-05-03 09:34
 comments: true
 author: Scot Dalton
-categories: libtechnyu
-tags: introductions octopress jekyll git
+categories: 
+  - libtechnyu
+  - biggie smalls
+  - introductions 
+  - octopress 
+  - jekyll
+  - git
 ---
 
 # Introducting Library Technologists @ NYU - The Blog
