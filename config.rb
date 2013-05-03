@@ -1,6 +1,8 @@
 require 'sass-globbing'
 
 # Require any additional compass plugins here.
+require 'nyulibraries_assets'
+
 project_type = :stand_alone
 
 # Publishing paths

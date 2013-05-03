@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 group :development do
-  gem 'rake', '~> 0.9'
+  gem 'rake', '~> 10.0'
   gem 'jekyll', '~> 0.12'
   gem 'rdiscount', '~> 1.6.8'
   gem 'pygments.rb', '~> 0.3.4'
@@ -16,3 +16,5 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.4.2'
+gem 'rvm-capistrano', '~> 1.3.0'
+gem "nyulibraries_assets", :git => "git://github.com/NYULibraries/nyulibraries_assets.git", :tag => "v1.0.9"

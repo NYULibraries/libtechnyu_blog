@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://web1.library.nyu.edu/libtechnyu
+title: Lib(rary )Tech(nologists @ )NYU
+subtitle: "Code, Test, Deploy, Open Source, Repeat"
+author: sdalton
 simple_search: http://google.com/search
 description:
 
@@ -64,8 +64,8 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
-twitter_tweet_button: true
+twitter_user: libtechnyu
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
