@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducting Library Technologists @ NYU - The Blog"
+title: "Introducing Library Technologists @ NYU - The Blog"
 date: 2013-05-03 09:34
 comments: true
 author: Scot Dalton
