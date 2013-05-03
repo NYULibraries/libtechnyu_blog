@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lib(rary )Tech(nologists @ )NYU"
+title: "Library Technologists @ NYU"
 date: 2013-05-03 09:34
 comments: true
 categories: libtechnyu
