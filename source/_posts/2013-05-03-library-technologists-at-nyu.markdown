@@ -34,7 +34,13 @@ If you want to add a blog post, ask for access to [this repo](https://github.com
 
 This will create the file `source/_posts/#{data}-the-title-of-my-insightful-post.markdown`.
 
-[YAML Front Matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter) is at the top. Edit it. Or don't.
+[YAML Front Matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter) is at the top. Add yourself as the post's author.
+
+    ---
+    ...
+    author: You
+    ...
+    ---
 
 Then write your post in [markdown](http://daringfireball.net/projects/markdown/).
 
