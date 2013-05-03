@@ -8,7 +8,7 @@ project_type = :stand_alone
 
 # Publishing paths
 http_path = "/"
-http_images_path = "/images"
+http_images_path = "/libtechnyu/images"
 http_fonts_path = "/fonts"
 css_dir = "public/stylesheets"
 
