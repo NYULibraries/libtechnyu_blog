@@ -1,6 +1,7 @@
 require 'sass-globbing'
 
 # Require any additional compass plugins here.
+require 'bootstrap-sass'
 require 'nyulibraries_assets'
 
 project_type = :stand_alone
