@@ -45,6 +45,6 @@ Once you're done, push back to master and Jenkins should take care of the rest.
     $ git push origin master
 
 ## Questions?
-Hit up #libtechnyu on freenode.  sdalton would be a good start.  Not borges or humbert.  Those dudes are squabble-y.
+Hit up sdalton #libtechnyu on freenode. Not borges or humbert.  Those dudes are squabble-y.
 
 Enjoy!
