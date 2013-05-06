@@ -1,0 +1,34 @@
+---
+layout: post
+title: "ELUNA 2013"
+date: 2013-05-06 17:56
+comments: true
+author: Hannan Butt
+categories: eluna, 2013, ex-libris, primo, presenting, java
+---
+
+
+This past week I was able to go to the [ELUNA 2013](http://el-una.org/meetings/eluna-2013/) conference in Athens, Georgia. I went to present on how we were using [Citero](https://github.com/NYULibraries/citero), our own homegrown Java citation library, in conjunction with Primo to serve unified citations and exports. I had no way of knowing how many people would be interested in my little presentation, aptly titled "Push To Plugins for a custom Java Citation Library." I had never been to an ELUNA conference before, and I wasn't even sure if anyone would care for Citero, but I was proud of Citero and an opportunity to share it was too good to pass up.
+
+So I went.
+
+At the conference, I met a wide range of characters, from librarians and system admins to Ex-Libris employees. The first day, I forgot to wear a name tag, so everyone was inquisitive of what institution I was from. Normally, the name tags have your name, your institution, and various badged denoting your role in the conference. Since I was lacking one that said, "Hannan Butt, NYU, Speaker," I was able to formally introduce myself and what I was there for. This allowed me to gauge interest in my presentation, as well as learn about what they are interested in. I found that people were interested in customizing Primo, and using Citero seemed like a cool idea. I also learned that perhaps I wasn't as familiar with Primo as I should be.
+
+I couldn't possibly present Citero and Primo without knowing much about Primo, so I decided to do some investigating. I dissected my PushTo code once more and scoured through Ex Libris commons for more information on Primo. I also retraced my steps in making the PushTo plugin, and mapped out exactly how I had implemented it. I become more familiar with Primo, but had no idea if it was enough.
+
+The next few days I spent going to various presentations that had to do with the Primo track and anything to do with Citations. I figured I can learn a few things:
+
+  * What to expect of my audience.
+  * How to do my presentation.
+  * How other libraries use Primo.
+  
+The audiences were generally quiet (like I was in a library!),  only asking a few questions for clarification. The presenters were very informative and willing to share their knowledge. The best part was, I was able to follow everything they were saying. This meant I had known more about Primo than I thought I did! (Whew) I also learned that some people also had a very similar problem as us, the Citation mappings were always a little funky. I figured Citero would be able to sell itself at this point.
+
+I edited my presentation a bit for clarity and made sure all my examples worked once more before my presentation, which was Friday morning at 11 AM. Unfortunately, the turnaround for my presentation was fairly small, but I blame the timing! It was the last day, it was raining, and it was right before lunch. While presenting, I noticed a couple of nods as I talked about the problems we were facing and a few interested faces when I showcased Citero. When I finished, the room was quiet. I asked if there were any questions, and nobody responded. Either I was too clear or so vague, they didn't know what to say! Luckily I got a little help from Daniel Lovins, who was genuinely interested. After that, I also got at least one other person to ask me a question. I finished my presentation and bid everyone farewell, I figured the presentation was good, but the impact small.
+
+Then, after everyone left, one person stayed behind. She told me that she was facing problems with Primo's RIS mapping, as it was too restrictive (it's one to one). She said she tried getting it resolved, but she was told she had to make her own PushTo plugin if she wanted to. She said it was wonderful that she could just use someone else's, and Citero was more than enough. She had trouble with RIS, but with Citero she got so much more!
+
+I was happy to see our work help at least one person, and I hope Citero gets more adaption. The more people that use it, the better it will get. Citero, you've done NYU proud!
+
+P.S.
+The presentation is available [here](https://docs.google.com/presentation/d/1lsuta7HjN2tHZFL2ui7hIZqWbGCtzQ3jL8_wAVATWWA/edit?usp=sharing).
