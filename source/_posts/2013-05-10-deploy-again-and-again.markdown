@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deploy, Again and Again"
+title: "Deploy Again and Again"
 date: 2013-05-10 12:30
 comments: true
 author: Scot Dalton
