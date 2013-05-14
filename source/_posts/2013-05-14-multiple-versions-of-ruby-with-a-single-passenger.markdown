@@ -19,19 +19,19 @@ I was recently moving an old app (i.e. Ruby 1.8.7, Rails 2.x, [Mongrel](https://
 
 * And, following the directions, copy the directives to a global Passenger config (possibly in `conf.d/passenger.conf` or `httpd.conf` depending on your configuration):
 
-LoadModule passenger_module /home/myuser/.rvm/gems/ruby-1.9.3-p125/gems/passenger-4.0.2/libout/apache2/mod_passenger.so
-PassengerRoot /home/myuser/.rvm/gems/ruby-1.9.3-p125/gems/passenger-4.0.2
-PassengerDefaultRuby /home/myuser/.rvm/wrappers/ruby-1.9.3-p125/ruby
+    LoadModule passenger_module /home/myuser/.rvm/gems/ruby-1.9.3-p125/gems/passenger-4.0.2/libout/apache2/mod_passenger.so
+    PassengerRoot /home/myuser/.rvm/gems/ruby-1.9.3-p125/gems/passenger-4.0.2
+    PassengerDefaultRuby /home/myuser/.rvm/wrappers/ruby-1.9.3-p125/ruby
 
 * `PassengerDefaultRuby` has to be defined at the global level, but the `PassengerRuby` directive now can be defined at any level (i.e. VirtualHost, Directory, Location, _.htaccess_). So I changed my VirtualHost for this app to the following:
 
     <VirtualHost *:443>
     …
-      RailsBaseURI /myapp
-      <Directory /apps/myapp>
-        Options -MultiViews
-        PassengerRuby /home/myuser/.rvm/wrappers/ruby-1.8.7-p371/ruby
-      </Directory>
+    RailsBaseURI /myapp
+    <Directory /apps/myapp>
+    Options -MultiViews
+    PassengerRuby /home/myuser/.rvm/wrappers/ruby-1.8.7-p371/ruby
+    </Directory>
     …
     </VirtualHost>
 
