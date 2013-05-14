@@ -14,26 +14,26 @@ I was recently moving an old app (i.e. Ruby 1.8.7, Rails 2.x, [Mongrel](https://
 
 * Install Passenger with Ruby on Apache [the normal way](http://www.modrails.com/documentation/Users%20guide%20Apache.html#_installation):
 
-    gem install passenger
-    passenger-install-apache2-module
+      gem install passenger
+      passenger-install-apache2-module
 
 * And, following the directions, copy the directives to a global Passenger config (possibly in `conf.d/passenger.conf` or `httpd.conf` depending on your configuration):
 
-    LoadModule passenger_module /home/myuser/.rvm/gems/ruby-1.9.3-p125/gems/passenger-4.0.2/libout/apache2/mod_passenger.so
-    PassengerRoot /home/myuser/.rvm/gems/ruby-1.9.3-p125/gems/passenger-4.0.2
-    PassengerDefaultRuby /home/myuser/.rvm/wrappers/ruby-1.9.3-p125/ruby
+      LoadModule passenger_module /home/myuser/.rvm/gems/ruby-1.9.3-p125/gems/passenger-4.0.2/libout/apache2/mod_passenger.so
+      PassengerRoot /home/myuser/.rvm/gems/ruby-1.9.3-p125/gems/passenger-4.0.2
+      PassengerDefaultRuby /home/myuser/.rvm/wrappers/ruby-1.9.3-p125/ruby
 
 * `PassengerDefaultRuby` has to be defined at the global level, but the `PassengerRuby` directive now can be defined at any level (i.e. VirtualHost, Directory, Location, _.htaccess_). So I changed my VirtualHost for this app to the following:
 
-    <VirtualHost *:443>
-    …
-    RailsBaseURI /myapp
-    <Directory /apps/myapp>
-    Options -MultiViews
-    PassengerRuby /home/myuser/.rvm/wrappers/ruby-1.8.7-p371/ruby
-    </Directory>
-    …
-    </VirtualHost>
+      <VirtualHost *:443>
+      …
+       RailsBaseURI /myapp
+       <Directory /apps/myapp>
+         Options -MultiViews
+         PassengerRuby /home/myuser/.rvm/wrappers/ruby-1.8.7-p371/ruby
+       </Directory>
+      …
+      </VirtualHost>
 
     **Notice** the `PassengerRuby` directive. It defines Ruby 1.8.7 for this specific app. So, yes, Passenger 4 was installed with Ruby 1.9.3, but because the gem supports multiple Ruby versions this local definition allows it to work with this 1.8.7 app.
 
