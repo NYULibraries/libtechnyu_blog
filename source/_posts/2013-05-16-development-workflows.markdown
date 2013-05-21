@@ -4,7 +4,7 @@ title: "Development Workflows"
 date: 2013-05-21 14:55
 comments: true
 author: Hannan Butt
-categories: eluna 2013 ex-libris primo presenting java
+categories: workflow git github capistrano build test deploy bdd travis jenkins branching branch batman
 ---
 
 
