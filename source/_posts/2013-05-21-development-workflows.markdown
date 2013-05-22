@@ -4,7 +4,7 @@ title: "Development Workflows"
 date: 2013-05-21 14:55
 comments: true
 author: Hannan Butt
-categories: workflow git github capistrano build test deploy bdd travis jenkins branching branch batman
+categories: workflow git github capistrano build test deploy tdd travis jenkins branching branch batman
 ---
 
 
@@ -42,7 +42,7 @@ Jenkins/Travis-CI
 
 ### Calm down Doctor! Now is not the time for integration
 
-That comes later. We believe testing to be essential to our work flow. We're huge proponents of Behavior Driven Development, BDD for short, a development model in which we write functionality tests before implementing the function. I'll be the first to admit, sometimes I get ahead of myself and forget to test, but we always try to test 100% of our code, don't believe me? [Check it](https://coveralls.io/r/NYULibraries/).
+That comes later. We believe testing to be essential to our work flow. We're huge proponents of ~~Behavior Driven Development, BDD for short,~~ Test Driven Development, TDD for short, a development model in which we write functionality tests before implementing the function. I'll be the first to admit, sometimes I get ahead of myself and forget to test, but we always try to test 100% of our code, don't believe me? [Check it](https://coveralls.io/r/NYULibraries/).
 
 Of course testing manually is a pain, that's why we write our tests in code first. Any future changes in our code will likely break these tests, which is __good__. Had the tests not been there, we might've shipped faulty code!
 
@@ -72,3 +72,5 @@ Summary
 Code. Test. Deploy.
 
 I think I'll post on all the various tools/services we use.
+
+__EDIT:__ We're more TDD than BDD.
