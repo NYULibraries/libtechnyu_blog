@@ -26,7 +26,7 @@ set :user, ENV['BLOG_USER']
 set :app_path, ENV['BLOG_APP_PATH']
 set :deploy_to, "#{app_path}#{application}"
 
-role :blog, ENV['BLOG_SERVER']
+role :blog, [ENV['BLOG_SERVER_1'], ENV['BLOG_SERVER_2']]
 
 after 'deploy:update', 'deploy:generate'
  
