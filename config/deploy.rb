@@ -2,8 +2,8 @@
 require "rvm/capistrano"
 
 set :ssh_options, {:forward_agent => true}
-set :app_title, "libtechnyu_blog"
-set :application, "#{app_title}_repos"
+set :app_title, "libtechnyu"
+set :application, "#{app_title}_blog_repos"
 
 # RVM  vars
 set :rvm_ruby_string, "1.9.3-p448"
