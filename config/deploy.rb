@@ -27,7 +27,8 @@ set :app_path, ENV['BLOG_APP_PATH']
 set :deploy_to, "#{app_path}#{application}"
 role :blog, ENV['BLOG_SERVER_1'], ENV['BLOG_SERVER_2']
 
-after 'deploy:update', 'deploy:generate'
+after "deploy:update", "deploy:generate"
+after "deploy", "deploy:create_symlink"
  
 namespace :deploy do
  
@@ -40,6 +41,10 @@ namespace :deploy do
   task :generate do
     run "cd #{current_release} && bundle install"
     run "cd #{current_release} && bundle exec rake generate"
+  end
+  
+  task :create_symlink do
+    run "rm -rf #{app_path}#{app_title} && ln -s #{current_path}/public #{app_path}#{app_title}"
   end
   
 end
