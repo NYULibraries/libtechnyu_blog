@@ -6,7 +6,7 @@ set :app_title, "libtechnyu_blog"
 set :application, "#{app_title}_repos"
 
 # RVM  vars
-set :rvm_ruby_string, "1.9.3-p125"
+set :rvm_ruby_string, "1.9.3-p448"
 set :rvm_type, :user
 
 # Bundle vars
