@@ -2,7 +2,7 @@
 layout: post
 title: "Some Reflections on the Leaked NY Times Innovation Report"
 date: 2014-06-17 09:43
-author:Daniel Lovins
+author: Daniel Lovins
 comments: true
 categories: 
 
