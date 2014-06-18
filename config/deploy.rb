@@ -29,6 +29,7 @@ role :blog, ENV['BLOG_SERVER_1'], ENV['BLOG_SERVER_2']
 
 after "deploy:update", "deploy:generate"
 after "deploy", "deploy:create_symlink"
+after "deploy:create_symlink", "deploy:create_app_symlink"
  
 namespace :deploy do
  
@@ -43,7 +44,7 @@ namespace :deploy do
     run "cd #{current_release} && bundle exec rake generate"
   end
   
-  task :create_symlink do
+  task :create_app_symlink do
     run "rm -rf #{app_path}#{app_title} && ln -s #{current_path}/public #{app_path}#{app_title}"
   end
   
