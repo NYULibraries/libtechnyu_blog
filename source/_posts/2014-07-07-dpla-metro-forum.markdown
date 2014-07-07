@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DPLA METRO Forum"
+author: Daniel Lovins
 date: 2014-07-07 09:06
 comments: true
 categories: metadata 
