@@ -1,11 +1,14 @@
+---
 layout: post
 title: "Notes from Webinar on Early BIBFRAME Adopters"
 author: Daniel Lovins
 date: 2014-07=07 09:06
 comments: true
 categories: metadata 
+---
 
 A few of us attended a NISO Webinar this week called "[Experimenting with BIBFRAME: Reports from Early Adopters](http://www.slideshare.net/BaltimoreNISO/april-8-niso-webinar-experimenting-with-bibframe-reports-from-early-adopters)". I wanted share my brief notes on the #libtechnyu blog partly because BIBFRAME is important for library technologists, but also because I was surprised by the extent to which Kuali OLE is being used for BIBFRAME prototyping. I knew about the [assessment work at UC Davis](http://www.lib.ucdavis.edu/bibflow/initial-kuali-ole-assessment/), but it turns out that the National Library of Medicine and the "Linked Data for Technical Services Production" group are also using it. Something to consider as NYU decides whether to migrate (eventually) from Aleph to Alma, or whether to consider an open source alternative like Kuali OLE.
+
 
 ### "BIBFRAME Lite" at the National Library of Medicine (NLM)
 
