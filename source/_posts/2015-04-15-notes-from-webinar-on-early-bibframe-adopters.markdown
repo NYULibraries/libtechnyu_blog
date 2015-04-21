@@ -2,7 +2,7 @@
 layout: post
 title: "Notes from Webinar on Early BIBFRAME Adopters"
 author: Daniel Lovins
-date: 2015-07-04 09:06
+date: 2015-04-15 09:06
 comments: true
 categories: metadata 
 ---
