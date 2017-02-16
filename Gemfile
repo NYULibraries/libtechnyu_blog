@@ -17,4 +17,3 @@ end
 
 gem 'sinatra', '~> 1.4.2'
 gem 'rvm-capistrano', '~> 1.3.0'
-gem "nyulibraries_assets", :git => "git://github.com/NYULibraries/nyulibraries_assets.git", :tag => "v1.0.9"
